@@ -13,6 +13,7 @@ namespace ExternalData
 {
     public partial class Form1 : Form
     {
+        //This is the correct database
         string connectionString = @"server=(localdb)\MSSQLLocalDB;database=Dominican;Trusted_connection=true";
         public Form1()
         {
