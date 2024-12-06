@@ -26,7 +26,7 @@ namespace ExternalData
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 //Querying all of my data from my Student table
-                conn.Open();
+                conn.Open(); //hello
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("SELECT * FROM dbo.Student", conn);
                 DataTable dt = new DataTable();
                 sqlDataAdapter.Fill(dt);
